@@ -8,14 +8,16 @@ class GetListMangaUseCase {
     private val repository : MangaRepository = MangaRepositoryImpl()
 
     operator fun invoke() : List<HomeManga> {
-        val result = repository.getListManga()
-        return result.map {
+        val result = repository.getListManga().map {
             HomeManga(
                 id = it.id,
                 name = it.name,
                 imageUrl = it.imageUrl,
+                desc = it.synopsys,
                 score = it.score
             )
         }
+
+        return result.sortedByDescending { it.score }
     }
 }

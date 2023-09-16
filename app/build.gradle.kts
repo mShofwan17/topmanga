@@ -52,4 +52,6 @@ dependencies {
 
     //glide
     implementation("com.github.bumptech.glide:glide:4.16.0")
+    //image blur
+    implementation("jp.wasabeef:glide-transformations:4.3.0")
 }
