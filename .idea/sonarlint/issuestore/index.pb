@@ -1,6 +1,4 @@
 
-D
-app/build.gradle.kts,d\2\d2a4383452aad84a18429a5844d31330a012a9e6
 }
 Mapp/src/main/java/dicoding/submission/topmanga/data/model_source/Character.kt,c\f\cf8d1b63aa563c16c4e00df8d79db977597ecd31
 {
@@ -17,9 +15,3 @@ x
 Happ/src/main/java/dicoding/submission/topmanga/domain/model/HomeManga.kt,2\d\2d87aacbab982a35d45acecbee5a3cb5f4254ad8
 
 Oapp/src/main/java/dicoding/submission/topmanga/data/model_source/MangaSource.kt,a\9\a913c6036f4cde12b350b644e88e7f7ac8891ca4
-„
-Tapp/src/main/java/dicoding/submission/topmanga/domain/usecase/GetListMangaUseCase.kt,5\2\520838011e3bce0596e29fecdd196fe168bd6be6
-†
-Vapp/src/main/java/dicoding/submission/topmanga/domain/usecase/GetDetailMangaUseCase.kt,0\4\04ccbff667cde183bf347cd001b22c60bbe8f917
-{
-Kapp/src/main/java/dicoding/submission/topmanga/presentation/MainActivity.kt,8\d\8d0e06086c9aaa381ac82d7958a7d8d5cb2ddce3

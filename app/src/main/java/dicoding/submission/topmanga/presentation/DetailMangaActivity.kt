@@ -1,7 +1,10 @@
 package dicoding.submission.topmanga.presentation
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.snackbar.Snackbar
+import dicoding.submission.topmanga.R
 import dicoding.submission.topmanga.data.model_source.Manga
 import dicoding.submission.topmanga.databinding.ActivityDetailMangaBinding
 import dicoding.submission.topmanga.domain.usecase.GetDetailMangaUseCase
@@ -44,7 +47,7 @@ class DetailMangaActivity : AppCompatActivity(), InitActivity {
             }
 
             txtTitle.text = detailManga?.name
-            txtRank.text = "Rank $rank"
+            txtRank.text = getString(R.string.rank, rank)
             txtRating.text = detailManga?.score.toString()
             txtAuthor.text = detailManga?.published.toString()
             txtGenre.text = detailManga?.genres?.joinToString()
@@ -66,6 +69,10 @@ class DetailMangaActivity : AppCompatActivity(), InitActivity {
         binding.apply {
             imgClose.setOnClickListener {
                 finish()
+            }
+
+            actionShare.setOnClickListener {
+                Snackbar.make(root, "Sharing Manga ${detailManga?.name}", Toast.LENGTH_SHORT).show()
             }
         }
     }

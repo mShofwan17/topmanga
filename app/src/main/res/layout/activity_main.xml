@@ -23,6 +23,7 @@
         />
 
     <ImageView
+        android:foreground="?android:attr/selectableItemBackground"
         android:id="@+id/imgProfile"
         android:layout_width="46dp"
         android:layout_height="46dp"

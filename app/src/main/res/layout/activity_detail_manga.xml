@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".presentation.DetailMangaActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -15,7 +16,6 @@
             android:layout_height="380dp"
             android:id="@+id/imgBackground"
             app:layout_constraintTop_toTopOf="parent"
-            android:src="@drawable/berserk"
             app:layout_constraintBottom_toTopOf="@+id/llMain"
             android:scaleType="fitXY"/>
 
@@ -32,8 +32,7 @@
             app:layout_constraintTop_toTopOf="@id/imgBackground"
             app:layout_constraintEnd_toEndOf="@id/imgBackground"
             app:layout_constraintStart_toStartOf="@id/imgBackground"
-            app:layout_constraintBottom_toBottomOf="@id/imgBackground"
-            android:src="@drawable/berserk"/>
+            app:layout_constraintBottom_toBottomOf="@id/imgBackground"/>
 
         <ImageView
             android:id="@+id/imgClose"
@@ -44,7 +43,6 @@
             android:background="@drawable/bg_circle_black_transparent"
             android:src="@drawable/baseline_close_24"
             app:layout_constraintEnd_toEndOf="@id/imgBackground"
-            app:layout_constraintStart_toEndOf="@id/imgMain"
             app:layout_constraintTop_toTopOf="parent"
             app:tint="@color/white" />
 
@@ -62,27 +60,34 @@
 
             <TextView
                 android:id="@+id/txtTitle"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="@string/dummy_title"
-                android:textColor="@color/black"
-                android:textSize="28sp"
-                android:textStyle="bold"
+                android:layout_marginEnd="8dp"
+                tools:text="@string/dummy_title"
+                style="@style/TextTitle.VeryBig"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/actionShare"
                 app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:id="@+id/actionShare"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:src="@drawable/baseline_share_24"
+                app:layout_constraintBottom_toBottomOf="@+id/txtTitle"
+                app:layout_constraintTop_toTopOf="@id/txtTitle"
+                app:layout_constraintEnd_toEndOf="parent"/>
 
 
             <TextView
                 android:id="@+id/txtRank"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
                 android:background="@drawable/bg_radius_blue"
-                android:gravity="center"
-                android:text="Rank #1"
-                android:textColor="@color/white"
-                android:textSize="18sp"
-                android:textStyle="bold"
+                tools:text="Rank #1"
+                style="@style/TextTitle.Medium"
                 app:layout_constraintBottom_toBottomOf="@id/txtRating"
                 app:layout_constraintEnd_toStartOf="@id/txtRating"
                 app:layout_constraintStart_toStartOf="parent"
@@ -92,17 +97,12 @@
                 android:id="@+id/txtRating"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
                 android:layout_marginHorizontal="10dp"
                 android:layout_marginTop="14dp"
                 android:background="@drawable/bg_radius_yellow"
-                android:gravity="center"
-                android:text="9.47"
-                android:textColor="@color/white"
-                android:textSize="24sp"
-                android:textStyle="bold"
+                tools:text="9.47"
+                style="@style/TextTitle.White.Drawable"
                 app:drawableStartCompat="@drawable/baseline_star_24"
-                app:drawableTint="@color/white"
                 app:layout_constraintEnd_toStartOf="@id/txtPublished"
                 app:layout_constraintStart_toEndOf="@id/txtRank"
                 app:layout_constraintTop_toBottomOf="@id/txtTitle" />
@@ -111,15 +111,10 @@
                 android:id="@+id/txtPublished"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
                 android:background="@drawable/bg_radius_green"
-                android:gravity="center"
-                android:text="1998 "
-                android:textColor="@color/white"
-                android:textSize="18sp"
-                android:textStyle="bold"
+                tools:text="1998 "
+                style="@style/TextTitle.Medium.Drawable"
                 app:drawableStartCompat="@drawable/baseline_edit_calendar_24"
-                app:drawableTint="@color/white"
                 app:layout_constraintBottom_toBottomOf="@id/txtRating"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/txtRating"
@@ -148,10 +143,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Genre"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
+                    android:text="@string/genre"
+                    style="@style/TextTitle.Small"
                     app:layout_constraintTop_toTopOf="@id/view" />
 
                 <TextView
@@ -162,9 +155,8 @@
                     android:ellipsize="end"
                     android:lines="3"
                     android:maxLines="3"
-                    android:text="Action, Adventure, Award Winning"
-                    android:textColor="@color/black"
-                    android:textSize="16sp" />
+                    tools:text="Action, Adventure, Award Winning"
+                    style="@style/TextSubtitle" />
             </LinearLayout>
 
             <LinearLayout
@@ -181,10 +173,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Author"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
+                    android:text="@string/author"
+                    style="@style/TextTitle.Small"
                     app:layout_constraintTop_toTopOf="@id/view" />
 
                 <TextView
@@ -194,9 +184,9 @@
                     android:layout_marginTop="4dp"
                     android:ellipsize="end"
                     android:lines="3"
-                    android:text=" Inoue, Takehiko"
-                    android:textColor="@color/black"
-                    android:textSize="16sp" />
+                    tools:text=" Inoue, Takehiko"
+                    style="@style/TextSubtitle"
+                    />
             </LinearLayout>
 
             <LinearLayout
@@ -214,10 +204,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Synopsys"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
+                    android:text="@string/synopsys"
+                    style="@style/TextTitle.Small"
                     app:layout_constraintTop_toTopOf="@id/view" />
 
                 <TextView
@@ -225,19 +213,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
-                    android:text="@string/dummy_desc"
-                    android:textColor="@color/black"
-                    android:textSize="16sp" />
+                    tools:text="@string/dummy_desc"
+                    style="@style/TextSubtitle" />
             </LinearLayout>
 
             <TextView
                 android:id="@+id/txtLblCharacter"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Characters"
-                android:textColor="@color/black"
-                android:textSize="18sp"
-                android:textStyle="bold"
+                android:text="@string/characters"
+                style="@style/TextTitle.Small"
                 android:layout_marginTop="16dp"
                 app:layout_constraintTop_toBottomOf="@+id/llSynopsys" />
 
@@ -254,7 +239,7 @@
             android:id="@+id/txtSource"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Source by Myanimelist.net"
+            android:text="@string/source_by_myanimelist_net"
             android:gravity="center_horizontal"
             android:background="@color/blue"
             android:padding="10dp"

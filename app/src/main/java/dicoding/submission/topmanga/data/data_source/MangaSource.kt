@@ -7,7 +7,7 @@ object MangaSource {
     val vindlandSaga: Manga = Manga(
         id = 12,
         name = "Vinland Saga",
-        imageUrl = "https://cdn.myanimelist.net/images/manga/2/188925.jpg",
+        imageUrl = "https://cdn.myanimelist.net/images/manga/2/188925l.jpg",
         score = 9.05,
         synopsys = "Thorfinn, son of one of the Vikings' greatest warriors, is among the finest fighters in the merry band of mercenaries run by the cunning Askeladd, an impressive feat for a person his age. However, Thorfinn is not part of the group for the plunder it entails—instead, for having caused his family great tragedy, the boy has vowed to kill Askeladd in a fair duel. Not yet skilled enough to defeat him, but unable to abandon his vengeance, Thorfinn spends his boyhood with the mercenary crew, honing his skills on the battlefield among the war-loving Danes, where killing is just another pleasure of life.\n" +
                 "\n" +
@@ -22,7 +22,7 @@ object MangaSource {
     val mgBerserk: Manga = Manga(
         id = 1,
         name = "Berserk",
-        imageUrl = "https://cdn.myanimelist.net/images/manga/1/157897.jpg",
+        imageUrl = "https://cdn.myanimelist.net/images/manga/1/157897l.jpg?_gl=1*wbf873*_ga*MTc1MDU4MTcwMy4xNjU1Mzc0MDA1*_ga_26FEP9527K*MTY5NDg5NDI5NS4xMS4xLjE2OTQ4OTQzNjAuNjAuMC4w",
         score = 9.74,
         synopsys = "Guts, a former mercenary now known as the \"Black Swordsman,\" is out for revenge. After a tumultuous childhood, he finally finds someone he respects and believes he can trust, only to have everything fall apart when this person takes away everything important to Guts for the purpose of fulfilling his own desires. Now marked for death, Guts becomes condemned to a fate in which he is relentlessly pursued by demonic beings.\n" +
                 "\n" +
@@ -38,7 +38,7 @@ object MangaSource {
     val mgJojo: Manga = Manga(
         id = 2,
         name = "JoJo no Kimyou na Bouken Part 7: Steel Ball Run",
-        imageUrl = "https://cdn.myanimelist.net/images/manga/3/179882.jpg",
+        imageUrl = "https://cdn.myanimelist.net/images/manga/3/179882l.jpg",
         score = 9.30,
         synopsys = "In the American Old West, the world's greatest race is about to begin. Thousands line up in San Diego to travel over six thousand kilometers for a chance to win the grand prize of fifty million dollars. With the era of the horse reaching its end, contestants are allowed to use any kind of vehicle they wish. Competitors will have to endure grueling conditions, traveling up to a hundred kilometers a day through uncharted wastelands. The Steel Ball Run is truly a one-of-a-kind event.\n" +
                 "\n" +
@@ -54,7 +54,7 @@ object MangaSource {
     val mgVagabond: Manga = Manga(
         id = 3,
         name = "Vagabond",
-        imageUrl = "https://cdn.myanimelist.net/images/manga/1/259070.jpg",
+        imageUrl = "https://cdn.myanimelist.net/images/manga/1/259070l.jpg",
         score = 9.24,
         synopsys = "In 16th-century Japan, Shinmen Takezou is a wild, rough young man, in both his appearance and his actions. His aggressive nature has won him the collective reproach and fear of his village, leading him and his best friend, Matahachi Honiden, to run away in search of something grander than provincial life. The pair enlist in the Toyotomi army, yearning for glory—but when the Toyotomi suffer a crushing defeat at the hands of the Tokugawa Clan at the Battle of Sekigahara, the friends barely make it out alive.\n" +
                 "\n" +
@@ -72,7 +72,7 @@ object MangaSource {
     val mgOnePiece: Manga = Manga(
         id = 4,
         name = "One Piece",
-        imageUrl = "https://cdn.myanimelist.net/images/manga/2/253146.jpg",
+        imageUrl = "https://cdn.myanimelist.net/images/manga/2/253146l.jpg",
         score = 9.22,
         synopsys = "Gol D. Roger, a man referred to as the \"King of the Pirates,\" is set to be executed by the World Government. But just before his demise, he confirms the existence of a great treasure, One Piece, located somewhere within the vast ocean known as the Grand Line. Announcing that One Piece can be claimed by anyone worthy enough to reach it, the King of the Pirates is executed and the Great Age of Pirates begins.\n" +
                 "\n" +
@@ -88,7 +88,7 @@ object MangaSource {
     val mgMonster: Manga = Manga(
         id = 5,
         name = "Monster",
-        imageUrl = "https://cdn.myanimelist.net/images/manga/3/258224.jpg",
+        imageUrl = "https://cdn.myanimelist.net/images/manga/3/258224l.jpg",
         score = 9.15,
         synopsys = "Kenzou Tenma, a renowned Japanese neurosurgeon working in post-war Germany, faces a difficult choice: to operate on Johan Liebert, an orphan boy on the verge of death, or on the mayor of Düsseldorf. In the end, Tenma decides to gamble his reputation by saving Johan, effectively leaving the mayor for dead.\n" +
                 "\n" +
@@ -106,7 +106,7 @@ object MangaSource {
     val fmab: Manga = Manga(
         id = 6,
         name = "Fullmetal Alchemist",
-        imageUrl = "https://cdn.myanimelist.net/images/manga/3/243675.jpg",
+        imageUrl = "https://cdn.myanimelist.net/images/manga/3/243675l.jpg",
         score = 9.03,
         synopsys = "Alchemists are knowledgeable and naturally talented individuals who can manipulate and modify matter due to their art. Yet despite the wide range of possibilities, alchemy is not as all-powerful as most would believe. Human transmutation is strictly forbidden, and whoever attempts it risks severe consequences. Even so, siblings Edward and Alphonse Elric decide to ignore this great taboo and bring their mother back to life. Unfortunately, not only do they fail in resurrecting her, they also pay an extremely high price for their arrogance: Edward loses his left leg and Alphonse his entire body. Furthermore, Edward also gives up his right arm in order to seal his brother's soul into a suit of armor.\n" +
                 "\n" +
@@ -122,7 +122,7 @@ object MangaSource {
     val oyasumiPunpun: Manga = Manga(
         id = 7,
         name = "Oyasumi Punpun",
-        imageUrl = "https://cdn.myanimelist.net/images/manga/2/104655l.jpg",
+        imageUrl = "https://cdn.myanimelist.net/images/manga/3/164420l.jpg",
         score = 9.02,
         synopsys = "Punpun Onodera is a normal 11-year-old boy living in Japan. Hopelessly idealistic and romantic, Punpun begins to see his life take a subtle—though nonetheless startling—turn to the adult when he meets the new girl in his class, Aiko Tanaka. It is then that the quiet boy learns just how fickle maintaining a relationship can be, and the surmounting difficulties of transitioning from a naïve boyhood to a convoluted adulthood. When his father assaults his mother one night, Punpun realizes another thing: those whom he looked up to were not as impressive as he once thought.\n" +
                 "\n" +
@@ -138,7 +138,7 @@ object MangaSource {
     val opm: Manga = Manga(
         id = 8,
         name = "One Punch-Man",
-        imageUrl = "https://cdn.myanimelist.net/images/manga/3/80661.jpg",
+        imageUrl = "https://cdn.myanimelist.net/images/manga/3/80661l.jpg",
         score = 8.75,
         synopsys = "After rigorously training for three years, the ordinary Saitama has gained immense strength which allows him to take out anyone and anything with just one punch. He decides to put his new skill to good use by becoming a hero. However, he quickly becomes bored with easily defeating monsters, and wants someone to give him a challenge to bring back the spark of being a hero.\n" +
                 "\n" +
@@ -154,7 +154,7 @@ object MangaSource {
     val hxh: Manga = Manga(
         id = 9,
         name = "Hunter x Hunter",
-        imageUrl = "https://cdn.myanimelist.net/images/manga/2/253119.jpg",
+        imageUrl = "https://cdn.myanimelist.net/images/manga/2/253119l.jpg",
         score = 8.73,
         synopsys = "\"Secret treasure hoards, undiscovered wealth... mystical places, unexplored frontiers... 'The mysterious unknown.' There's magic in such words for those captivated by its spell. They are called 'Hunters'!\"\n" +
                 "\n" +
@@ -170,7 +170,7 @@ object MangaSource {
     val mushishi: Manga = Manga(
         id = 10,
         name = "Mushishi",
-        imageUrl = "https://cdn.myanimelist.net/images/manga/2/159514.jpg",
+        imageUrl = "https://cdn.myanimelist.net/images/manga/2/159514l.jpg",
         score = 8.72,
         synopsys = "\"Mushi\": the most basic forms of life in the world. They exist without any goals or purposes aside from simply \"being.\" They are beyond the shackles of the words \"good\" and \"evil.\" Mushi can exist in countless forms and are capable of mimicking things from the natural world such as plants, diseases, and even phenomena like rainbows.\n" +
                 "\n" +
@@ -192,7 +192,7 @@ object MangaSource {
     val deathNote: Manga = Manga(
         id = 11,
         name = "Death Note",
-        imageUrl = "https://cdn.myanimelist.net/images/manga/1/258245.jpg",
+        imageUrl = "https://cdn.myanimelist.net/images/manga/1/258245l.jpg",
         score = 8.70,
         synopsys = "Ryuk, a god of death, drops his Death Note into the human world for personal pleasure. In Japan, prodigious high school student Light Yagami stumbles upon it. Inside the notebook, he finds a chilling message: those whose names are written in it shall die. Its nonsensical nature amuses Light; but when he tests its power by writing the name of a criminal in it, they suddenly meet their demise.\n" +
                 "\n" +

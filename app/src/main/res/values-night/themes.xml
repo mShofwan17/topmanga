@@ -13,4 +13,50 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">@color/blue</item>
     </style>
+
+
+    <style name="Theme.TopManga" parent="Base.Theme.TopManga" />
+
+    <style name="TextTitle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextTitle.VeryBig">
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="TextTitle.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextTitle.White.Drawable">
+        <item name="drawableTint">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextTitle.Medium">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextTitle.Medium.Drawable">
+        <item name="android:textSize">20sp</item>
+        <item name="drawableTint">@color/white</item>
+    </style>
+
+    <style name="TextTitle.Small">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextSubtitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextSubtitle.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
 </resources>
